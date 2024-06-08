@@ -8,57 +8,10 @@ This project involves building a simple command-line interpreter in Python. The 
 
 The command interpreter allows users to interact with the system via commands. It supports basic functionalities like help, quit, and EOF.
 
-### How to Start It
+## Environment
+The console was developed in Ubuntu 14.04 LTS using python3 (version 3.4.3).
 
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/your_username/your_repository.git
-    cd your_repository
-    ```
+For further information on python version, and documentation visit python.org.
 
-2. **Make the `console.py` executable:**
-    ```bash
-    chmod +x console.py
-    ```
-
-3. **Run the command interpreter:**
-    ```bash
-    ./console.py
-    ```
-
-### How to Use It
-
-Once the interpreter is running, you will see a prompt `(hbnb)`. You can type commands after the prompt.
-
-#### Commands:
-
-- **help:** Displays a list of available commands or detailed help for a specific command.
-    ```bash
-    (hbnb) help
-    (hbnb) help <command>
-    ```
-
-- **quit:** Exits the command interpreter.
-    ```bash
-    (hbnb) quit
-    ```
-
-- **EOF:** Exits the command interpreter using the EOF signal (Ctrl+D).
-    ```bash
-    (hbnb) EOF
-    ```
-
-### Examples
-
-#### Interactive Mode
-
-```bash
-$ ./console.py
-(hbnb) help
-
-Documented commands (type help <topic>):
-========================================
-EOF  help  quit
-
-(hbnb) quit
-$
+## Requirements
+Knowledge in python3, how to use a command line interpreter, a computer with Ubuntu 14.04+, python3 and pep8 style corrector.
